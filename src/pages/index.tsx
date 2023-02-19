@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 import Main from "@/pages/components/Main"
 import Features from './components/Features'
 import Testimonials from './components/Testimonials';
-
+import Contact from "./components/Contact"
 export default function Home() {
   return (
     <>
@@ -14,9 +13,10 @@ export default function Home() {
         <link rel="icon" href="../assets/favicon.ico" />
       </Head>
       <main>
-<Main></Main>
-<Features></Features>
-<Testimonials/>
+        <Main></Main>
+        <Features></Features>
+        <Testimonials />
+        <Contact></Contact>
       </main>
     </>
   )
