@@ -46,7 +46,7 @@ export default function ContactUs() {
           </p>
         </div>
         <div>
-          <form onSubmit={handleSubmit} className="flex flex-col p-12">
+          <form onSubmit={handleSubmit} action="/api/form" className="flex flex-col p-12">
             <input
               className="hover:enabled:scale-110 ease-in-out duration-300 py-4"
               placeholder="Full Name*"
@@ -94,6 +94,7 @@ export default function ContactUs() {
             <div>
               <button
                 type="submit"
+                formMethod="POST"
                 className="flex justify-center items-center p-4 bg-blue-500 rounded mt-8 hover:scale-110 ease-in-out duration-300"
               >
                 Submit Form
