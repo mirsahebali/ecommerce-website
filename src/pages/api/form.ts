@@ -2,7 +2,7 @@
 require("dotenv").config()
 import type { NextApiRequest, NextApiResponse } from "next";
 const nodemailer = require('nodemailer');
-
+export {}
 type Data = {
   name: string;
   email: string;
