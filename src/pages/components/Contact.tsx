@@ -4,9 +4,17 @@ import { HiLocationMarker } from "react-icons/hi"
 import { TbWorld } from "react-icons/tb"
 
 export default function ContactUs() {
+  interface User{
+  fullname: String,
+  email: String,
+  number: Number,
+  message: String
+  }
+
+
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
-  const [number, setNumber] = useState();
+  const [number, setNumber] = useState("");
   const [message, setMessage] = useState("");
 
   function handleSubmit() { }
