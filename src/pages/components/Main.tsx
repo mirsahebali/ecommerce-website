@@ -8,7 +8,7 @@ function Main() {
   return (
     <div className={styles.main}>
       <Navbar></Navbar>
-      <div className="flex flex-row justify-around">
+      <div className="flex flex-row justify-around ">
         <div className="flex justify-center items-center w-[45%]">
           <div className="flex flex-col">
             <div>

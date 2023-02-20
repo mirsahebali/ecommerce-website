@@ -19,6 +19,7 @@ export default function handler(
 
 
   if (req.method === "POST") {
+    
     const { fullname, email, phone, message } = req.body;
 
     const transporter = nodemailer.createTransport({
@@ -41,6 +42,7 @@ export default function handler(
         res.send(error);
       } else {
         console.log('Email sent: ' + info.response);
+
         res.send(info.response);
       }
     });

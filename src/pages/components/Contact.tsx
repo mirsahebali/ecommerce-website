@@ -14,7 +14,7 @@ export default function ContactUs() {
 
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
-  const [number, setNumber] = useState<number>();
+  const [number, setNumber] = useState<number>(null);
   const [message, setMessage] = useState("");
 
   function handleSubmit() { }
