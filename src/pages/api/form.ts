@@ -32,7 +32,7 @@ export default function handler(
     console.log("working?")
     const mailOptions = {
       from: req.body.email,
-      to: 'assignment@spreadinindia.in',
+      to: 'mirsahebali.dev@gmail.com',
       subject: req.body.message,
       text: `Name: ${fullname}\nEmail: ${email}\n Phone: ${phone} \nMessage: ${message}`
     };
