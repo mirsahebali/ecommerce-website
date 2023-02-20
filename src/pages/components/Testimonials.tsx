@@ -1,7 +1,7 @@
 import { ImQuotesLeft } from "react-icons/im"
 
 function Testimonials() {
-  return (<div className="bg-[#fffed6] my-[6rem] py-[1rem]  flex flex-col h-[70vh] relative">
+  return (<div className="bg-[#fffed6] my-[6rem] py-[1rem]  w-[100vw] flex flex-col h-[70vh] relative max-[1006px]:h-[80vh] max-[875px]:h-[90vh]">
     <div className="w-[45%] p-20 m-1">
       <p className="text-2xl font-[400]">OUR HAPPY CUSTOMERS</p>
       <h1 className="text-5xl font-bold pb-7">What our customers say about us</h1>
